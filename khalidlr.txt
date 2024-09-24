@@ -23,26 +23,90 @@ challange 01:
      scanf ("%s,&l'email :");
      printf ("veuillez l'age :");
      scanf ("%d,&l'age :");
+return 0;
 }
-     return 0;
+     
 
 
 
 challange 02
 
-#include  <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+ #include  <stdio.h>
+
  int main () 
 {
-       float k,C;
-       printf ("veuille la température en C ");
-       scanf ("%2.f",&C);
-       K = C + 273.15;
-{
-       return 0;
-
+       float k, c;
+       printf ("veuillez entrer la température en  Celsius ");
+       scanf ("%2.f", &c);
+       k = c + 273.15;
+       printf ("en k est :%f\n",k );
+    return 0;
 
 
 challange 03
+    
+
+
+
+ #include  <stdio.h>
+
+ int main () 
+{
+       float yards,km;
+       printf ("veuillez entrer la transforme en yards ");
+       scanf ("%2.f", &yards);
+       yards = km * 1093.61;
+       printf ("en yards est :%f\n",yards );
+    return 0;
+}
+
+
+
+challange 04
+
+
+
+ #include  <stdio.h>
+
+ int main () 
+
+{
+       float kmh , ms;
+       printf ("veuillez entrer la vitesse en kilomètres :");
+       scanf ("%2.f", &ms);
+       ms = kmh * 0.27778;
+       printf ("la vitesse en  mètres par seconde (m/s) est :%f\n",ms );
+
+    return 0;
+}
+
+
+
+challange 05
+
+
+#include  <stdio.h>
+
+ int main () 
+
+{
+       float C;
+       printf ("veuillez entrer la temperature en Celsius :");
+       scanf ("%f",&C);
+       if (C < 0)
+          printf ("l'etat de l'eau est solide :");
+       else if (C >= 0 && C < 100 )
+          printf("l'etat de l'eau est Liquide :");
+       else 
+          printf ("l'etat de l'eau est Gaz :");
+
+    return 0;
+}
+
+
+challange 06
+
+
+
+
  
