@@ -1,0 +1,48 @@
+challange 01:
+#include <stdio.h>
+#include <stdlib.h>
+ int main () 
+{   
+     
+     
+     char prenome[12];
+     char nom [20];
+     char sexe [40];
+     char email [90];
+     int age;
+
+     printf ("les informations personnelles :");
+
+     printf ("veuillez le prenome :");
+     scanf ("%s,&le_prenome :");
+     printf ("veuillez le nom :");
+     scanf ("%s,&le_nom :");
+     printf ("veuillez le sexe :");
+     scanf ("%s,&le_sexe :");
+     printf ("veuillez l'email :");
+     scanf ("%s,&l'email :");
+     printf ("veuillez l'age :");
+     scanf ("%d,&l'age :");
+}
+     return 0;
+
+
+
+challange 02
+
+#include  <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+ int main () 
+{
+       float k,C;
+       printf ("veuille la température en C ");
+       scanf ("%2.f",&C);
+       K = C + 273.15;
+{
+       return 0;
+
+
+
+challange 03
+ 
