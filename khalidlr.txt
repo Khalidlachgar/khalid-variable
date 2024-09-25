@@ -1,31 +1,5 @@
 challange 01:
-#include <stdio.h>
-#include <stdlib.h>
- int main () 
-{   
-     
-     
-     char prenome[12];
-     char nom [20];
-     char sexe [40];
-     char email [90];
-     int age;
-
-     printf ("les informations personnelles :");
-
-     printf ("veuillez le prenome :");
-     scanf ("%s,&le_prenome :");
-     printf ("veuillez le nom :");
-     scanf ("%s,&le_nom :");
-     printf ("veuillez le sexe :");
-     scanf ("%s,&le_sexe :");
-     printf ("veuillez l'email :");
-     scanf ("%s,&l'email :");
-     printf ("veuillez l'age :");
-     scanf ("%d,&l'age :");
-return 0;
-}
-     
+  
 
 
 
@@ -69,16 +43,15 @@ challange 04
  #include  <stdio.h>
 
  int main () 
-
 {
-       float kmh , ms;
-       printf ("veuillez entrer la vitesse en kilomètres :");
-       scanf ("%2.f", &ms);
-       ms = kmh * 0.27778;
-       printf ("la vitesse en  mètres par seconde (m/s) est :%f\n",ms );
-
+       float yards,km;
+       printf ("veuillez entrer la transforme en yards ");
+       scanf ("%2.f", &yards);
+       yards = km * 1093.61;
+       printf ("en yards est :%f\n",yards );
     return 0;
 }
+
 
 
 
